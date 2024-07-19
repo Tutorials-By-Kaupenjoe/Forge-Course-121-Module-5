@@ -1,0 +1,40 @@
+{
+  "item.mccourse.azurite": "Azurite",
+  "item.mccourse.raw_azurite": "Raw Azurite",
+  "item.mccourse.chainsaw": "Chainsaw",
+  "item.mccourse.onion": "Onion",
+  "item.mccourse.aurora_ashes": "Aurora Ashes",
+
+  "block.mccourse.azurite_block": "Block of Azurite",
+
+  "block.mccourse.azurite_ore": "Azurite Ore",
+  "block.mccourse.azurite_deepslate_ore": "Azurite Deepslate Ore",
+  "block.mccourse.azurite_end_ore": "Azurite End Ore",
+  "block.mccourse.azurite_nether_ore": "Azurite Nether Ore",
+
+  "block.mccourse.magic_block": "Magic Block",
+
+  "block.mccourse.azurite_stairs": "Azurite Stairs",
+  "block.mccourse.azurite_slab": "Azurite Slab",
+
+  "block.mccourse.azurite_button": "Azurite Button",
+  "block.mccourse.azurite_pressure_plate": "Azurite Pressure Plate",
+
+  "block.mccourse.azurite_fence": "Azurite Fence",
+  "block.mccourse.azurite_fence_gate": "Azurite Fence Gate",
+  "block.mccourse.azurite_wall": "Azurite Wall",
+
+  "block.mccourse.azurite_door": "Azurite Door",
+  "block.mccourse.azurite_trapdoor": "Azurite Trapdoor",
+
+
+  "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
+  "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
+
+  "tooltip.mccourse.magic_block.tooltip.1": "This Block is §9MAGICAL§r",
+  "tooltip.mccourse.onion.tooltip.1": "Tastes Great, for an Onion!",
+
+  "creativetab.azurite_items": "Azurite Items",
+  "creativetab.azurite_blocks": "Azurite Blocks"
+}

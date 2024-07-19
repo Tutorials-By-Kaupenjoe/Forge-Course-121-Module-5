@@ -1,0 +1,14 @@
+{
+  "values": [
+    "mccourse:azurite_block",
+    "mccourse:azurite_ore",
+    "mccourse:azurite_deepslate_ore",
+    "mccourse:azurite_end_ore",
+    "mccourse:azurite_nether_ore",
+    "mccourse:azurite_stairs",
+    "mccourse:azurite_slab",
+    "mccourse:azurite_button",
+    "mccourse:azurite_pressure_plate",
+    "mccourse:magic_block"
+  ]
+}

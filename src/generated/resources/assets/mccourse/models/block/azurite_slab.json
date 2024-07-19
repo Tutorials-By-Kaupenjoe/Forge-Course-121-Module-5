@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mccourse:block/azurite_block",
+    "side": "mccourse:block/azurite_block",
+    "top": "mccourse:block/azurite_block"
+  }
+}
