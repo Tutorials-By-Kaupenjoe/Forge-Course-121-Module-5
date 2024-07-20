@@ -1,9 +1,11 @@
 package net.kaupenjoe.mccourse.item.custom;
 
+import net.kaupenjoe.mccourse.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -32,6 +34,12 @@ public class ChainsawItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level),
                         ((ServerPlayer) context.getPlayer()), item ->
                         Objects.requireNonNull(context.getPlayer()).onEquippedItemBroken(item,  EquipmentSlot.MAINHAND));
+
+                context.getLevel().playSound(null, context.getPlayer().blockPosition(), ModSounds.CHAINSAW_CUT.get(),
+                        SoundSource.PLAYERS, 1f, 1f);
+            } else {
+                context.getLevel().playSound(null, context.getPlayer().blockPosition(), ModSounds.CHAINSAW_PULL.get(),
+                        SoundSource.PLAYERS, 1f, 1f);
             }
         }
 
