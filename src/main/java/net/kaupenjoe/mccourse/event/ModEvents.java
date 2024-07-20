@@ -6,6 +6,7 @@ import net.kaupenjoe.mccourse.command.ReturnHomeCommand;
 import net.kaupenjoe.mccourse.command.SetHomeCommand;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.kaupenjoe.mccourse.potion.ModPotions;
+import net.kaupenjoe.mccourse.villager.ModVillagers;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
@@ -75,6 +76,25 @@ public class ModEvents {
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 32),
                     new ItemStack(ModItems.CHAINSAW.get(), 1), 1, 8, 0.025f
+            ));
+        }
+
+        if(event.getType() == ModVillagers.KAUPENGER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 32),
+                    new ItemStack(ModItems.CHAINSAW.get(), 1), 1, 8, 0.025f
+            ));
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(Items.EMERALD, 32),
+                    new ItemStack(ModItems.RAW_AZURITE.get(), 1), 1, 8, 0.025f
+            ));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemCost(ModItems.AZURITE.get(), 12),
+                    new ItemStack(Items.DIAMOND, 2), 1, 8, 0.025f
             ));
         }
     }
