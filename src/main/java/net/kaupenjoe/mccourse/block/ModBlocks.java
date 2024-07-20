@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.block;
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.block.custom.MagicBlock;
 import net.kaupenjoe.mccourse.item.ModItems;
+import net.kaupenjoe.mccourse.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -39,7 +40,8 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noLootTable()));
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f)
+                    .requiresCorrectToolForDrops().noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> AZURITE_STAIRS = registerBlock("azurite_stairs",
             () -> new StairBlock(ModBlocks.AZURITE_BLOCK.get().defaultBlockState(),
