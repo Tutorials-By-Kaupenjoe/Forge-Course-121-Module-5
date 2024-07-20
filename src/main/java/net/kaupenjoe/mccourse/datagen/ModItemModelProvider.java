@@ -31,6 +31,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.AZURITE_WALL, ModBlocks.AZURITE_BLOCK);
 
         simpleBlockItem(ModBlocks.AZURITE_DOOR);
+
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

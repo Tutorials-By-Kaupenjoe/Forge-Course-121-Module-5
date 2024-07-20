@@ -5,6 +5,10 @@
   "item.mccourse.onion": "Onion",
   "item.mccourse.aurora_ashes": "Aurora Ashes",
 
+  "item.mccourse.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.mccourse.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+
   "block.mccourse.azurite_block": "Block of Azurite",
 
   "block.mccourse.azurite_ore": "Azurite Ore",
