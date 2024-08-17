@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -35,6 +36,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
         basicItem(ModFluids.AZURITE_WATER_BUCKET.get());
+
+        horizontalBlockItem(ModBlocks.CRYSTALLIZER);
+    }
+
+    private ItemModelBuilder horizontalBlockItem(RegistryObject<Block> block) {
+        return getBuilder(block.getId().getPath()).parent(new ModelFile.UncheckedModelFile(ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,
+                "block/" + block.getId().getPath())));
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

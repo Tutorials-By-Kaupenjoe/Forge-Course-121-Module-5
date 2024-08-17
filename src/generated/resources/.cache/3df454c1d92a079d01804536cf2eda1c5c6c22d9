@@ -1,4 +1,4 @@
-// 1.21	2024-06-20T13:52:13.4376764	Block States: mccourse
+// 1.21	2024-08-17T18:32:03.4822107	Block States: mccourse
 bbfaa01f68eb5799769daacd3cc8742de0b55dde assets/mccourse/blockstates/azurite_block.json
 80930b2d8d812d82062fd0c751c3f5a4a9facc76 assets/mccourse/blockstates/azurite_button.json
 078f124a805467fb14e16025335317864628c226 assets/mccourse/blockstates/azurite_deepslate_ore.json
@@ -13,6 +13,7 @@ f8ea10323c901de6aa9feca890c5c1964076ee79 assets/mccourse/blockstates/azurite_pre
 63c5425dcb4b0d495ade0b7b97ccfe7b4b171266 assets/mccourse/blockstates/azurite_stairs.json
 3b5cdf9b4971ddd3c7a1cd211fd2d66285db1698 assets/mccourse/blockstates/azurite_trapdoor.json
 2a07af00ccbccc459bd7aa888c2687cff1752e8f assets/mccourse/blockstates/azurite_wall.json
+ce8b89d73a1830da6c4017885f8cb6536b5ec8ac assets/mccourse/blockstates/crystallizer.json
 bc7d21f942c84b754066fc4a8c9f34dc61953149 assets/mccourse/blockstates/magic_block.json
 e6c6ffdc3a0c08a656e61b87a2f54b9243808262 assets/mccourse/models/block/azurite_block.json
 c7032a01dcbf2a26938da61848b06b0ee6a625c4 assets/mccourse/models/block/azurite_button.json
@@ -48,6 +49,7 @@ b1c977888a8a172cf9387773ed901c18df00de2c assets/mccourse/models/block/azurite_tr
 86250355fec63534f69a6ca46c4d29b9dea4425b assets/mccourse/models/block/azurite_wall_post.json
 59f572c5b9a9ddfc01eb570427f6bd26c65958d2 assets/mccourse/models/block/azurite_wall_side.json
 cb061e09eba1551525dda696805101f553a1eacb assets/mccourse/models/block/azurite_wall_side_tall.json
+4ea4d1c317f05f741c48794bc14513a8945b8637 assets/mccourse/models/block/crystallizer.json
 e3bea00dd7e933deb59eaf492b010a1f8fdd914f assets/mccourse/models/block/magic_block.json
 c3832457839fb4fefe638fac3993b23b0e0f57b9 assets/mccourse/models/item/azurite_block.json
 6d4f57f8e0879e013a75d58467c694b8bfbe9739 assets/mccourse/models/item/azurite_deepslate_ore.json

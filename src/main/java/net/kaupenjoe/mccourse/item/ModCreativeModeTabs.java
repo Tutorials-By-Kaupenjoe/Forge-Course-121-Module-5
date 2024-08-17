@@ -61,6 +61,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AZURITE_TRAPDOOR.get());
 
                         output.accept(ModBlocks.PEDESTAL.get());
+                        output.accept(ModBlocks.CRYSTALLIZER.get());
                     }).build());
 
 

@@ -1,4 +1,4 @@
-// 1.21	2024-07-20T13:20:27.5641426	Loot Tables
+// 1.21	2024-08-17T18:32:03.480211	Loot Tables
 8fc80500a47d2cce00a196fd6ff8706543f42ab7 data/mccourse/loot_table/blocks/azurite_block.json
 fd8888a769a62187bbf443f4ec37445beb35fe98 data/mccourse/loot_table/blocks/azurite_button.json
 64460a477be288b13297f5fad6f0063ac27410c7 data/mccourse/loot_table/blocks/azurite_deepslate_ore.json
@@ -13,4 +13,5 @@ e20c45e983324407d51d631dfafffd0b6ed638c8 data/mccourse/loot_table/blocks/azurite
 9ebbf72bb7f1eb02ca1757b30bb4fa7dfeed9818 data/mccourse/loot_table/blocks/azurite_stairs.json
 e8cbf54a7834780a802bc969d56775514c084997 data/mccourse/loot_table/blocks/azurite_trapdoor.json
 212f12aa82d46f3c766eea6895cec0c825e11151 data/mccourse/loot_table/blocks/azurite_wall.json
+050f1914267178a4acec4704b2f52b37cae887b1 data/mccourse/loot_table/blocks/crystallizer.json
 cde659bef06aa83db7389e11e50b9b4823081230 data/mccourse/loot_table/blocks/pedestal.json

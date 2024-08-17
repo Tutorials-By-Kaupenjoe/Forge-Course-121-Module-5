@@ -1,4 +1,4 @@
-// 1.21	2024-07-24T14:28:40.3781598	Item Models: mccourse
+// 1.21	2024-08-17T18:32:03.4812108	Item Models: mccourse
 1ce777d01800de4f89188a30f319cab2b5fbf262 assets/mccourse/models/item/aurora_ashes.json
 df3ca36915ce05a651f008eaa893eb1327e22921 assets/mccourse/models/item/azurite.json
 59aa0947d83e099a5aa3ea66af98ad0056ddbcb1 assets/mccourse/models/item/azurite_button.json
@@ -8,5 +8,6 @@ e683de56780ac19ea4359871d6d2daac95560999 assets/mccourse/models/item/azurite_fen
 ff54c815a2b1a1a1a1a0ca7033a07a3c1fd31b5c assets/mccourse/models/item/azurite_water_bucket.json
 882c909d777501be9a665907319c212c6837ebd6 assets/mccourse/models/item/bar_brawl_music_disc.json
 f2aeca2040ea829b8b6878ebe3a168fcb74381d2 assets/mccourse/models/item/chainsaw.json
+370bb17deeb36c83225b692b78902a12ca210d57 assets/mccourse/models/item/crystallizer.json
 a7d5feb86bed77eaacdb1842113cbf06cd21ab3a assets/mccourse/models/item/onion.json
 57a81765c0f4b3dbbda0ae3694508d88e52b6568 assets/mccourse/models/item/raw_azurite.json

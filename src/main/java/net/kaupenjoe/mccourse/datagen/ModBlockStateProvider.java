@@ -45,6 +45,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.AZURITE_PRESSURE_PLATE);
         blockItem(ModBlocks.AZURITE_FENCE_GATE);
         blockItem(ModBlocks.AZURITE_TRAPDOOR, "_bottom");
+
+        horizontalBlock(ModBlocks.CRYSTALLIZER.get(), mcLoc("block/blast_furnace_side"), modLoc("block/crystallizer_front"), mcLoc("block/blast_furnace_top"));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
